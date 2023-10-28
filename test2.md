@@ -1,6 +1,5 @@
 <details>
 <summary>- module: Cisco-IOS-XE-wireless-client-global-oper</summary>
-</details>
   - client-global-oper-data
     - client-global-oper-data/client-live-stats
       - client-global-oper-data/client-live-stats/auth-state-clients
@@ -38,6 +37,7 @@
         - client-global-oper-data/client-stats/co-client-del-reason/vlan-change
         - client-global-oper-data/client-stats/co-client-del-reason/admin-reset
         - client-global-oper-data/client-stats/co-client-del-reason/qos-fail
+</details>
 
 - module: Cisco-IOS-XE-wireless-access-point-cfg-rpc
   - rpcs:
