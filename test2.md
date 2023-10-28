@@ -36,3 +36,55 @@
         - client-global-oper-data/client-stats/co-client-del-reason/vlan-change
         - client-global-oper-data/client-stats/co-client-del-reason/admin-reset
         - client-global-oper-data/client-stats/co-client-del-reason/qos-fail
+
+- module: Cisco-IOS-XE-wireless-access-point-cfg-rpc
+  - rpcs:
+    - set-ap-vlan-tag
+      - vlan-id
+      - ap-name
+      - mac-addr
+    - set-ap-vlan-tag-all
+      - vlan-id
+    - set-ap-monitor-mode-chnl-optimize
+      - mode
+      - ap-name
+      - mac-addr
+    - set-ap-mode
+      - clear-mode
+      - mode
+      - ap-name
+      - mac-addr
+    - set-lrad-led-state
+      - ledstate
+      - ap-name
+      - mac-addr
+    - set-lrad-led-flash
+      - flash-sec
+      - led-flash-state
+      - config-type
+      - ap-name
+      - mac-addr
+    - set-ap-location
+      - location
+      - ap-name
+      - mac-addr
+    - set-ap-name
+      - name
+      - ap-name
+      - mac-addr
+    - set-ap-antenna-band-mode
+      - band-val
+      - ap-name
+      - mac-addr
+    - set-ap-country
+      - country-string
+      - ap-name
+      - mac-addr
+    - set-11-hphy-ofdm-chan
+      - chan
+      - slot-id
+      - ap-name
+      - mac-addr
+    - set-ap-slot-ext-antenna-gain
+      - external-antenna-gain
+      - slot-id
