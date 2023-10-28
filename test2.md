@@ -1,5 +1,5 @@
 <details>
-<summary>- module: Cisco-IOS-XE-wireless-client-global-oper</summary>
+<summary> - module: Cisco-IOS-XE-wireless-client-global-oper</summary>
   
   - client-global-oper-data
     - client-global-oper-data/client-live-stats
@@ -39,9 +39,11 @@
         - client-global-oper-data/client-stats/co-client-del-reason/admin-reset
         - client-global-oper-data/client-stats/co-client-del-reason/qos-fail
           
-</details>
 
-- module: Cisco-IOS-XE-wireless-access-point-cfg-rpc
+
+<details>
+<summary> - module: Cisco-IOS-XE-wireless-access-point-cfg-rpc</summary>
+  
   - rpcs:
     - set-ap-vlan-tag
       - vlan-id
@@ -92,3 +94,5 @@
     - set-ap-slot-ext-antenna-gain
       - external-antenna-gain
       - slot-id
+
+</details>
