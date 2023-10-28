@@ -1,22 +1,11 @@
-<details>
-  <summary>Click me</summary>
-  
-  ### Heading
-  1. Foo
-  2. Bar
-     * Baz
-     * Qux
 
-  ### Some Javascript
-  ```js
-  function logSomething(something) {
-    console.log('Something', something);
-  }
-  ```
-</details>
+  
+
 
 # YANGmodels_Xpath
 
+<details>
+  <summary>Click me</summary>
 - Cisco-IOS-XE-wireless-access-point-oper Module
   - /access-point-oper-data/ap-name-mac-map
     - Represents information related to APs based on their names and MAC addresses.
@@ -69,4 +58,4 @@
     - CCA (Clear Channel Assessment) utilization percentage within RRM measurements.
   - /client-oper-data/dc-info/device-vendor
     - Device vendor information within client operational data.
-
+</details>
