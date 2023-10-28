@@ -1,28 +1,78 @@
 <!DOCTYPE html>
 <html>
-<head>
-<script>
-function toggleAll() {
-  var elements = document.getElementsByClassName("section");
-  var button = document.getElementById("toggleButton");
-  for (var i = 0; i < elements.length; i++) {
-    if (elements[i].style.display === "none") {
-      elements[i].style.display = "block";
-      button.textContent = "Collapse All";
-    } else {
-      elements[i].style.display = "none";
-      button.textContent = "Expand All";
-    }
-  }
-}
-</script>
-</head>
-<body>
-<button id="toggleButton" onclick="toggleAll()">Collapse All</button>
 
-<div class="section" style="display: block;">
-  <!-- Your hierarchical structure goes here -->
-</div>
+<head>
+    <script>
+        function toggleAll() {
+            var sections = document.getElementsByClassName("section");
+            var button = document.getElementById("toggleButton");
+            for (var i = 0; i < sections.length; i++) {
+                if (sections[i].style.display === "none") {
+                    sections[i].style.display = "block";
+                    button.textContent = "Collapse All";
+                } else {
+                    sections[i].style.display = "none";
+                    button.textContent = "Expand All";
+                }
+            }
+        }
+
+        function toggleSection(section) {
+            if (section.style.display === "none" || section.style.display === "") {
+                section.style.display = "block";
+            } else {
+                section.style.display = "none";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Cisco-IOS-XE-wireless-access-point-oper Module</h1>
+
+    <button id="toggleButton" onclick="toggleAll()">Expand All</button>
+
+    <div class="section" style="display: none;">
+        <h2>access-point-oper-data</h2>
+
+        <div class="section" style="display: none;">
+            <h3>ap-name-mac-map</h3>
+            <p><strong>Description:</strong> Represents information related to APs based on their names and MAC addresses.</p>
+        </div>
+
+        <div class="section" style="display: none;">
+            <h3>ssid-counters</h3>
+            <p><strong>Description:</strong> Number of associated clients per SSID.</p>
+        </div>
+
+        <div class="section" style="display: none;">
+            <h3>oper-data</h3>
+
+            <div class="section" style="display: none;">
+                <h4>ap-prime-info</h4>
+                <p><strong>primary-controller-name:</strong> Name of the primary controller for the AP.</p>
+                <p><strong>secondary-controller-name:</strong> Name of the secondary controller for the AP.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" style="display: none;">
+        <h2>rrm-oper-data</h2>
+
+        <div class="section" style="display: none;">
+            <h3>rrm-measurement</h3>
+
+            <div class="section" style="display: none;">
+                <h4>load</h4>
+
+                <div class="section" style="display: none;">
+                    <h5>cca-util-percentage</h5>
+                    <p><strong>Description:</strong> CCA (Clear Channel Assessment) utilization percentage within RRM measurements.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
+
 </html>
