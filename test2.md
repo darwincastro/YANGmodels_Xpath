@@ -1,4 +1,6 @@
-- module: Cisco-IOS-XE-wireless-client-global-oper
+<details>
+<summary>- module: Cisco-IOS-XE-wireless-client-global-oper</summary>
+</details>
   - client-global-oper-data
     - client-global-oper-data/client-live-stats
       - client-global-oper-data/client-live-stats/auth-state-clients
