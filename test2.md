@@ -38,7 +38,8 @@
         - client-global-oper-data/client-stats/co-client-del-reason/vlan-change
         - client-global-oper-data/client-stats/co-client-del-reason/admin-reset
         - client-global-oper-data/client-stats/co-client-del-reason/qos-fail
-          
+
+</details>
 
 <details>
 <summary>module: Cisco-IOS-XE-wireless-access-point-cfg-rpc</summary>
