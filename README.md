@@ -1,9 +1,5 @@
 # YANGmodels_Xpath
 
- ## Collapsible Sections
-
-You can expand and collapse sections by visiting the [HTML page](./index.html).
-
 - Cisco-IOS-XE-wireless-access-point-oper Module
   - /access-point-oper-data/ap-name-mac-map
     - Represents information related to APs based on their names and MAC addresses.
